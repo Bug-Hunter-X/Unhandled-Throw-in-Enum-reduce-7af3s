@@ -1,0 +1,1 @@
+This example demonstrates an uncommon Elixir error related to unhandled exceptions thrown within `Enum.reduce`. The code attempts to sum a list, halting if the number 3 is found.  However, it directly uses `throw`, causing a crash if 3 is present.  The solution shows how to properly handle the thrown exception using a `try...catch` block.
